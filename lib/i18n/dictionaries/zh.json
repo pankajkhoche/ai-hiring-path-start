@@ -1,0 +1,576 @@
+{
+  "nav": {
+    "features": "功能",
+    "how": "如何运作",
+    "pricing": "定价",
+    "faq": "常见问题",
+    "login": "登录",
+    "admin": "管理员",
+    "startTrial": "开始免费试用"
+  },
+  "hero": {
+    "badge": "数据驱动的求职",
+    "titlePrefix": "这个",
+    "titleEmphasis": "职业智能",
+    "titleSuffix": "平台",
+    "subtitle": "击败ATS，掌握每次面试，填补技能差距。AI Hiring Path将您的求职转变为一个可以实际衡量的系统，而不是猜谜游戏。",
+    "cta": "开始您的职业旅程",
+    "secondaryCta": "了解如何运作",
+    "disclaimer": "无需信用卡 • 90天全功能高级访问",
+    "gaugeCaption": "一次AI简历通过后的平均ATS匹配分数"
+  },
+  "skillRows": {
+    "keywordMatch": "关键词匹配",
+    "formatting": "格式",
+    "impactMetrics": "影响与指标",
+    "interviewReadiness": "面试准备"
+  },
+  "stats": {
+    "callbacks": "更多面试回电",
+    "atsImprovement": "平均ATS分数提升",
+    "interviewsTaken": "进行的模拟面试",
+    "rating": "候选人评分"
+  },
+  "features": {
+    "eyebrow": "您所需的一切",
+    "title": "一个平台涵盖整个求职过程",
+    "subtitle": "从简历到录取通知书——每一步都围绕真实的招聘信号，而不是猜测。",
+    "items": [
+      {
+        "title": "简历与ATS分析器",
+        "desc": "即时ATS评分、关键词差距和逐节反馈，适用于任何职位描述。"
+      },
+      {
+        "title": "职业教练",
+        "desc": "面试、薪资谈判、职业转型和技能规划的对话教练。"
+      },
+      {
+        "title": "面试模拟器",
+        "desc": "真实的HR、技术和行为模拟面试，提供即时评分和反馈。"
+      },
+      {
+        "title": "求职准备套件",
+        "desc": "计时的能力、沟通和技术评估——选择题、现场编码和口语流利度检查。"
+      },
+      {
+        "title": "技能差距分析",
+        "desc": "将您的技能与目标角色进行比较，并获得个性化的学习路线图。"
+      },
+      {
+        "title": "职位匹配",
+        "desc": "发现与您的个人资料匹配的职位，并直接申请。"
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "如何运作",
+    "title": "三步实现梦想职位",
+    "steps": [
+      {
+        "t": "分析您的简历",
+        "d": "上传或粘贴您的简历和职位描述。获取即时ATS评分和修正建议。"
+      },
+      {
+        "t": "练习与提升技能",
+        "d": "进行模拟面试，并通过个性化路线图弥补技能差距。"
+      },
+      {
+        "t": "自信申请",
+        "d": "跟踪匹配的职位和申请，同时提高您的准备度评分。"
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "3个月免费试用",
+    "title": "免费使用高级版3个月",
+    "subtitle": "试用结束后才需付费。随时取消。",
+    "mostPopular": "最受欢迎",
+    "perMonth": "/月",
+    "free": "免费",
+    "cta": "开始免费试用",
+    "plans": [
+      {
+        "name": "入门版",
+        "tagline": "永久免费",
+        "features": [
+          "ATS分析（有限）",
+          "基本简历分析",
+          "基本技能差距",
+          "有限AI面试",
+          "电子邮件支持"
+        ]
+      },
+      {
+        "name": "专业版",
+        "tagline": "适合认真的求职者",
+        "features": [
+          "入门版的所有功能",
+          "简历生成器+重写",
+          "高级ATS分析",
+          "职业路线图",
+          "更多AI面试",
+          "优先支持"
+        ]
+      },
+      {
+        "name": "高级版",
+        "tagline": "全部解锁",
+        "features": [
+          "无限ATS分析",
+          "无限AI面试",
+          "职业教练，无限",
+          "作品集生成器",
+          "高级分析",
+          "高级支持"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "求职者的喜爱",
+    "title": "效果显著",
+    "items": [
+      {
+        "name": "Priya Nair",
+        "role": "产品初创公司SDE",
+        "quote": "ATS分析器准确指出了我被拒绝的原因。修正简历后，一周内获得了3次面试机会。"
+      },
+      {
+        "name": "Rahul Mehta",
+        "role": "数据分析师",
+        "quote": "面试模拟器感觉非常真实。反馈让我在实际面试中感到轻松。"
+      },
+      {
+        "name": "Ananya Rao",
+        "role": "应届毕业生",
+        "quote": "作为新人，我不知道自己缺少哪些技能。路线图给了我一个清晰的8周计划。"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "常见问题",
+    "title": "问题解答",
+    "items": [
+      {
+        "q": "真的免费3个月吗？",
+        "a": "是的。每个新账户都可以免费获得90天的完整高级访问。无需信用卡即可开始。"
+      },
+      {
+        "q": "ATS分析的准确性如何？",
+        "a": "它像申请跟踪系统一样读取简历——解析结构、关键词和格式——然后根据您粘贴的特定职位描述评分您的匹配度。"
+      },
+      {
+        "q": "ATS分析适用于任何职位吗？",
+        "a": "是的。粘贴任何职位描述和您的简历，您将获得匹配分数、缺失关键词和逐节修正建议。"
+      },
+      {
+        "q": "试用期结束后会发生什么？",
+        "a": "您可以继续访问您的数据，并选择付费计划（入门版/专业版/高级版）或有限的免费层。"
+      }
+    ]
+  },
+  "cta": {
+    "titlePrefix": "您的梦想工作仅",
+    "titleEmphasis": "一次分析之遥",
+    "subtitle": "加入数千名使用AI Hiring Path的候选人，快速获得工作。",
+    "button": "创建免费账户"
+  },
+  "footer": {
+    "tagline": "© 2026 AI Hiring Path Technologies. 为印度打造，面向全球。",
+    "privacy": "隐私",
+    "terms": "条款",
+    "pricing": "定价"
+  },
+  "auth": {
+    "login": {
+      "panelTitle": "在招聘游戏中获得",
+      "panelTitleEmphasis": "不公平的优势",
+      "panelSubtitle": "击败ATS，掌握面试，并获得围绕实际招聘的个性化职业智能。",
+      "panelTrust": "受到印度各地候选人的信赖。",
+      "heading": "登录",
+      "subheading": "欢迎回来。让我们实现那个职位。",
+      "email": "电子邮件",
+      "password": "密码",
+      "submit": "登录",
+      "adminDemoLabel": "管理员演示：",
+      "noAccount": "没有账户？",
+      "startTrial": "开始免费试用",
+      "welcomeBack": "欢迎回来，{name}！"
+    },
+    "register": {
+      "heading": "创建您的账户",
+      "subheading": "立即开始您的3个月高级试用。",
+      "fullName": "全名",
+      "email": "电子邮件",
+      "password": "密码",
+      "passwordHint": "至少6个字符",
+      "iAmA": "我是",
+      "roleCandidate": "候选人",
+      "roleRecruiter": "招聘者",
+      "submit": "开始免费试用",
+      "alreadyHaveAccount": "已经有账户？",
+      "signIn": "登录",
+      "panelTitlePrefix": "实现您的梦想工作，",
+      "panelTitleEmphasis": "更快",
+      "perks": [
+        "3个月高级免费",
+        "无限AI简历分析",
+        "AI面试模拟器",
+        "无需信用卡"
+      ],
+      "successToast": "账户已创建——3个月的高级版已解锁！"
+    }
+  },
+  "dashboardNav": {
+    "overview": "仪表板",
+    "ats": "简历ATS",
+    "linkedin": "LinkedIn优化器",
+    "coach": "AI职业教练",
+    "jobPrep": "求职准备",
+    "skills": "技能差距",
+    "roadmap": "路线图",
+    "jobs": "职位",
+    "billing": "账单",
+    "adminPanel": "管理员面板"
+  },
+  "adminNav": {
+    "console": "管理员控制台",
+    "dashboard": "仪表板"
+  },
+  "dashboardMisc": {
+    "trialBadge": "试用 • {days}天剩余",
+    "adminAccessBadge": "管理员访问",
+    "adminPanel": "管理员面板"
+  },
+  "dashboard": {
+    "overview": {
+      "welcomeBack": "欢迎回来，{name}",
+      "subtitle": "这是您的职业准备情况一览。",
+      "latestAtsScore": "最新ATS分数",
+      "resumeHealth": "简历健康",
+      "interviewReadiness": "面试准备",
+      "interviewsTaken": "进行的面试",
+      "keepPracticing": "继续练习以提高",
+      "atsScoreTrend": "ATS分数趋势",
+      "runFirstAts": "运行您的第一次ATS分析以查看趋势",
+      "skillRadar": "技能雷达",
+      "runSkillGap": "运行技能差距分析以查看您的雷达",
+      "weeklyActivity": "每周活动",
+      "recentActivity": "最近活动",
+      "noActivityYet": "尚无活动",
+      "aiRecommendations": "AI推荐",
+      "getNextSteps": "从AI获取个性化的下一步。",
+      "generateRecommendations": "生成推荐"
+    },
+    "ats": {
+      "title": "分析您的简历",
+      "resumeLabel": "您的简历（粘贴文本）",
+      "uploadButton": "上传PDF / DOCX",
+      "extracting": "提取中...",
+      "orPasteBelow": "或在下方粘贴",
+      "resumePlaceholder": "在此粘贴您的完整简历文本...",
+      "jdLabel": "目标职位描述（可选）",
+      "jdPlaceholder": "粘贴要匹配的职位描述...",
+      "analyzeButton": "分析简历",
+      "analyzing": "AI分析中...",
+      "emptyState": "您的ATS报告将在此显示。",
+      "matchTitle": "ATS匹配",
+      "matchRate": "匹配率：{rate}%",
+      "sectionScores": "部分评分",
+      "matchedSkills": "匹配的技能",
+      "missingSkills": "缺失的技能",
+      "strengths": "优势",
+      "improvements": "改进",
+      "aiRewrite": "AI简历重写",
+      "proBadge": "专业版",
+      "rewriteButton": "用AI重写我的简历",
+      "upgradeNotice": "升级到专业版以解锁AI简历重写。",
+      "resumeTooShort": "请粘贴更完整的简历（至少约40个字符）。",
+      "extractedToast": "从{filename}提取了{chars}个字符",
+      "analysisCompleteToast": "分析完成——得分{score}/100",
+      "rewriteReadyToast": "AI重写已准备好"
+    },
+    "linkedin": {
+      "title": "优化您的LinkedIn",
+      "urlLabel": "LinkedIn个人资料URL",
+      "roleLabel": "目标角色（可选）",
+      "rolePlaceholder": "例如：高级产品经理",
+      "textLabel": "粘贴您当前的标题、关于和经验",
+      "textPlaceholder": "粘贴您的LinkedIn标题、关于部分和关键经验（LinkedIn阻止自动抓取，因此请粘贴您的文本以获得最佳结果）。",
+      "optimizeButton": "优化我的个人资料",
+      "optimizing": "优化中...",
+      "emptyState": "您的优化个人资料将在此显示。",
+      "profileStrength": "个人资料强度",
+      "headlineOptions": "标题选项",
+      "aboutSection": "优化后的关于部分",
+      "keywordsToAdd": "要添加的关键词",
+      "quickWins": "快速胜利",
+      "sectionTips": "逐节提示",
+      "missingFieldsToast": "请在下面粘贴您的标题/简介/经验文本（至少 30 个字符）——仅 URL 是不够的。",
+      "analyzedToast": "个人资料已分析——强度{score}/100",
+      "copiedToast": "已复制到剪贴板",
+      "fetchNotice": "LinkedIn 阻止任何应用程序自动获取个人资料，因此仅粘贴 URL 是无效的——请在下面复制您的标题、简介和经验文本，以获得准确、个性化的结果。"
+    },
+    "coach": {
+      "newChat": "新聊天",
+      "noConversations": "尚无对话。",
+      "heading": "AI职业教练",
+      "subtitle": "询问有关简历、面试、薪资或您下一个职业转变的任何问题。",
+      "suggestions": [
+        "如何回答“介绍一下你自己”？",
+        "作为在班加罗尔的3年SDE，我应该要求多少薪水？",
+        "审查我转向数据科学的职业目标",
+        "我应该构建哪些项目以更快被录用？"
+      ],
+      "inputPlaceholder": "询问您的职业教练..."
+    },
+    "skills": {
+      "title": "技能差距分析",
+      "currentSkillsLabel": "您当前的技能",
+      "currentSkillsPlaceholder": "React, JavaScript, CSS...",
+      "targetRoleLabel": "目标角色",
+      "targetRolePlaceholder": "高级全栈工程师",
+      "analyzeButton": "分析技能差距",
+      "analyzing": "分析中...",
+      "skillRadar": "技能雷达",
+      "missingSkills": "缺失的技能",
+      "learningRoadmap": "您的学习路线图",
+      "enterRoleToast": "输入目标角色",
+      "readyToast": "技能差距分析已准备好"
+    },
+    "jobs": {
+      "title": "职位",
+      "subtitle": "由我们团队发布的职位，根据与您的个人资料的匹配度排名。",
+      "remote": "远程",
+      "match": "匹配",
+      "newlyPosted": "新发布",
+      "applyButton": "申请"
+    },
+    "billing": {
+      "currentPlan": "当前计划",
+      "trialDaysLeft": "您的免费高级试用剩余{days}天",
+      "promoText": "免费使用高级版3个月。试用结束后才需付费。",
+      "mostPopular": "最受欢迎",
+      "perMonth": "/月",
+      "free": "免费",
+      "pleaseWait": "请稍候...",
+      "currentFreePlan": "当前免费计划",
+      "choosePlan": "选择{plan}",
+      "paymentHistory": "支付历史",
+      "noPayments": "尚无支付记录——您正在免费试用中。配置账单密钥后将激活Razorpay结账。",
+      "checkoutStartedToast": "结账已开始"
+    },
+    "interview": {
+      "heading": "AI面试模拟器",
+      "subtitle": "进行真实的模拟面试并获得即时AI反馈。",
+      "roleLabel": "目标角色",
+      "rolePlaceholder": "例如：后端开发人员",
+      "typeLabel": "面试类型",
+      "typeTechnical": "技术",
+      "typeHr": "HR / 筛选",
+      "typeBehavioral": "行为",
+      "startButton": "开始面试",
+      "generatingQuestions": "生成问题中...",
+      "cameraNotice": "面试期间使用您的摄像头和麦克风——您将被要求允许访问。",
+      "completeHeading": "面试完成！",
+      "averageScoreOf": "{role}的{count}个问题的平均分数",
+      "newInterview": "新面试",
+      "attentivenessSignal": "注意力信号",
+      "attentivenessDetail": "面部可见{pct}%的样本 · {multi}多面事件 · {none}无面事件 · {flagged} 个已标记",
+      "questionOf": "问题{current} / {total}",
+      "readAloud": "大声朗读问题",
+      "answerPlaceholder": "输入您的答案，或点击麦克风说出...",
+      "speakAnswer": "说出答案",
+      "stopListening": "停止",
+      "listening": "聆听中...",
+      "submitAnswer": "提交答案",
+      "evaluating": "评估中...",
+      "aiFeedback": "AI反馈",
+      "strengths": "优势",
+      "gaps": "差距",
+      "modelAnswer": "示范答案",
+      "finishSeeResults": "完成并查看结果",
+      "nextQuestion": "下一个问题",
+      "enterRoleToast": "输入角色",
+      "noQuestionsError": "未生成问题，请重试",
+      "typeOrSpeakToast": "输入或说出您的答案",
+      "speechNotSupportedToast": "此浏览器不支持语音",
+      "voiceNotSupportedToast": "此浏览器不支持语音输入。请尝试Chrome。",
+      "listeningToast": "聆听中...说出您的答案"
+    },
+    "aptitude": {
+      "heading": "能力评估",
+      "subtitle": "15道逻辑和数值推理题。20分钟计时，时间到自动提交。",
+      "startButton": "开始评估",
+      "generatingQuestions": "生成问题中...",
+      "correctOf": "{total}道题中答对{correct}道",
+      "retake": "重考",
+      "correctAnswer": "正确答案：选项{n}",
+      "answered": "已回答",
+      "submitButton": "提交评估",
+      "submitting": "提交中...",
+      "autoSubmittedToast": "时间到——自动提交"
+    },
+    "communication": {
+      "heading": "沟通评估",
+      "subtitle": "10道语法/口语选择题（12分钟），然后大声朗读2段短文进行流利度检查（每段90秒）。",
+      "cameraNotice": "使用您的摄像头和麦克风——开始后查看通知。",
+      "startButton": "开始评估",
+      "preparing": "准备中...",
+      "grammarCorrectOf": "{total}道语法题中答对{correct}道 · 平均流利度{avg}/100",
+      "retake": "重考",
+      "passageN": "段落{n}",
+      "attentivenessSignal": "注意力信号",
+      "attentivenessDetail": "面部可见{pct}%的样本 · {multi}多面事件 · {none}无面事件 · {flagged} 个已标记",
+      "answered": "已回答",
+      "continueToReadAloud": "继续大声朗读",
+      "passageOf": "段落{current} / {total}",
+      "startReading": "开始阅读",
+      "scoring": "评分中...",
+      "stop": "停止",
+      "listening": "聆听中...",
+      "finalizing": "正在完成您的结果...",
+      "missingFieldsToast": "此浏览器不支持语音输入。请尝试Chrome。"
+    },
+    "technical": {
+      "heading": "技术评估",
+      "subtitle": "3个部分：15道选择题（每题1分钟），3个带测试用例的编码问题，以及1个SQL挑战。",
+      "cameraNotice": "整个过程中使用您的摄像头和麦克风——开始后查看通知。",
+      "startButton": "开始评估",
+      "preparing": "准备中...",
+      "scoreBreakdown": "选择题{mcq}% · 编码{coding}% · SQL{sql}%",
+      "retake": "重考",
+      "attentivenessSignal": "注意力信号",
+      "attentivenessDetail": "面部可见{pct}%的样本 · {multi}多面事件 · {none}无面事件 · {flagged} 个已标记",
+      "sectionMcq": "第1/3部分 · 选择题{current} / {total}",
+      "continueToCoding": "继续编码",
+      "nextQuestion": "下一个问题",
+      "sectionCoding": "第2/3部分 · 编码问题{current} / {total}",
+      "constraints": "约束：{text}",
+      "input": "输入：",
+      "expected": "期望：",
+      "runSampleTests": "运行示例测试",
+      "codePlaceholder": "编写一个完整的程序，从标准输入读取并写入标准输出...",
+      "continueToSql": "继续SQL部分",
+      "nextProblem": "下一个问题",
+      "sectionSql": "第3/3部分 · SQL",
+      "schemaData": "模式/数据：",
+      "sqlHint": "只编写您的SELECT查询——上面的模式/数据已为您自动设置。",
+      "sqlPlaceholder": "SELECT ...",
+      "submitButton": "提交评估",
+      "submitting": "提交中...",
+      "testPassed": "测试{n}通过",
+      "testFailed": "测试{n}失败",
+      "gotLabel": "得到："
+    },
+    "roadmap": {
+      "heading": "职业路线图",
+      "subtitle": "根据您的目标角色和时间表量身定制的逐月计划。",
+      "domainLabel": "领域",
+      "domainPlaceholder": "例如：软件工程、数据科学",
+      "roleLabel": "目标角色",
+      "rolePlaceholder": "例如：后端开发人员",
+      "experienceLevelLabel": "经验水平",
+      "fresher": "新人",
+      "experienced": "有经验",
+      "yearsOfExperience": "经验年限",
+      "yearsPlaceholder": "例如：3",
+      "timelineLabel": "时间表",
+      "months3": "3个月",
+      "months6": "6个月",
+      "months12": "12个月",
+      "generateButton": "生成路线图",
+      "generating": "构建您的路线图...",
+      "newPlan": "新计划",
+      "monthN": "第{n}月",
+      "weekN": "第{n}周：{focus}",
+      "enterFieldsToast": "输入领域和目标角色"
+    },
+    "jobPrep": {
+      "heading": "求职准备",
+      "subtitle": "练习招聘过程的每个部分，由AI评分。",
+      "back": "返回求职准备",
+      "tiles": [
+        {
+          "title": "AI面试",
+          "desc": "真实的HR、技术和行为模拟面试，提供即时AI评分。"
+        },
+        {
+          "title": "能力评估",
+          "desc": "在计时器下进行逻辑和数值推理。"
+        },
+        {
+          "title": "沟通评估",
+          "desc": "语法和口语选择题，以及大声朗读流利度检查。"
+        },
+        {
+          "title": "技术评估",
+          "desc": "选择题、带测试用例的现场编码和SQL挑战。"
+        }
+      ]
+    },
+    "proctor": {
+      "permissionNeeded": "{label}：需要摄像头和麦克风权限才能开始。",
+      "enableButton": "启用摄像头和麦克风",
+      "requesting": "请求中...",
+      "denied": "摄像头/麦克风权限被拒绝——请通过浏览器地址栏图标允许访问，然后重新加载以继续。",
+      "faceDetected": "检测到面部",
+      "multipleFaces": "多个面部",
+      "noFaceVisible": "无面部可见",
+      "starting": "开始中...",
+      "summaryNote": "仅客户端注意力信号（面部计数+麦克风级别）——不是经过验证的身份、信心或作弊判断。",
+      "warningNoFace": "一段时间内没有检测到面部——请保持在画面中。",
+      "warningMultipleFaces": "检测到多张面孔——仅应显示候选人。",
+      "flagged": "已标记"
+    }
+  },
+  "admin": {
+    "totalUsers": "总用户数",
+    "trialUsers": "试用用户",
+    "paid": "付费",
+    "mrr": "月经常性收入",
+    "planDistribution": "计划分布",
+    "grantAccessTitle": "授予免费访问权限",
+    "grantAccessSubtitle": "立即为任何电子邮件授予免费计划访问权限（覆盖付款状态）。",
+    "emailPlaceholder": "user@email.com",
+    "notePlaceholder": "备注（例如：投资者，测试者）",
+    "grantButton": "授予访问权限",
+    "postJob": "发布职位",
+    "editJob": "编辑职位",
+    "postJobSubtitle": "在此发布的职位将出现在每个候选人的职位页面上，“申请”链接直接指向您的申请链接。",
+    "jobTitlePlaceholder": "职位名称",
+    "companyPlaceholder": "公司",
+    "locationPlaceholder": "位置（例如：班加罗尔）",
+    "ctcPlaceholder": "CTC（例如：₹18-28 LPA）",
+    "applyLinkPlaceholder": "申请链接（https://...）",
+    "skillsPlaceholder": "所需技能，逗号分隔",
+    "descriptionPlaceholder": "职位描述",
+    "remoteFriendly": "支持远程",
+    "saveChanges": "保存更改",
+    "postJobButton": "发布职位",
+    "cancel": "取消",
+    "postedJobs": "已发布职位（{count}）",
+    "noJobsPosted": "尚未发布职位。",
+    "allUsers": "所有用户（{count}）",
+    "name": "姓名",
+    "email": "电子邮件",
+    "role": "角色",
+    "access": "访问",
+    "action": "操作",
+    "revoke": "撤销",
+    "starter": "入门版",
+    "professional": "专业版",
+    "premium": "高级版",
+    "jobTypeFullTime": "全职",
+    "jobTypePartTime": "兼职",
+    "jobTypeContract": "合同",
+    "jobTypeInternship": "实习",
+    "adminOnlyToast": "仅限管理员",
+    "jobRequiredFieldsToast": "标题、公司和申请链接是必需的",
+    "jobUpdatedToast": "职位已更新",
+    "jobPostedToast": "职位已发布",
+    "jobDeletedToast": "职位已删除",
+    "accessGrantedToast": "已授予{email}{plan}",
+    "accessRevokedToast": "访问已撤销"
+  }
+}

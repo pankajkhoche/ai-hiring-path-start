@@ -1,0 +1,576 @@
+{
+  "nav": {
+    "features": "機能",
+    "how": "使い方",
+    "pricing": "料金",
+    "faq": "FAQ",
+    "login": "ログイン",
+    "admin": "管理者",
+    "startTrial": "無料トライアルを開始"
+  },
+  "hero": {
+    "badge": "データ駆動型の就職活動",
+    "titlePrefix": "キャリア",
+    "titleEmphasis": "インテリジェンス",
+    "titleSuffix": "プラットフォーム",
+    "subtitle": "ATSを攻略し、面接で成功し、スキルのギャップを埋めましょう。AI Hiring Pathは、就職活動を測定可能なシステムに変えます。",
+    "cta": "キャリアの旅を始める",
+    "secondaryCta": "使い方を見る",
+    "disclaimer": "クレジットカード不要 • 90日間のフルプレミアムアクセス",
+    "gaugeCaption": "AI履歴書パス後の平均ATSマッチスコア"
+  },
+  "skillRows": {
+    "keywordMatch": "キーワードマッチ",
+    "formatting": "フォーマット",
+    "impactMetrics": "影響と指標",
+    "interviewReadiness": "面接準備"
+  },
+  "stats": {
+    "callbacks": "面接の呼び戻しが増加",
+    "atsImprovement": "平均ATSスコアの向上",
+    "interviewsTaken": "模擬面接の実施",
+    "rating": "候補者評価"
+  },
+  "features": {
+    "eyebrow": "必要なすべて",
+    "title": "就職活動のためのワンプラットフォーム",
+    "subtitle": "履歴書から内定まで、すべてのステップが実際の採用シグナルに基づいて構築されています。",
+    "items": [
+      {
+        "title": "履歴書 & ATSアナライザー",
+        "desc": "瞬時にATSスコア、キーワードのギャップ、セクションごとのフィードバックを提供します。"
+      },
+      {
+        "title": "キャリアコーチ",
+        "desc": "面接、給与交渉、キャリアの転換、スキル計画のための会話型コーチ。"
+      },
+      {
+        "title": "面接シミュレーター",
+        "desc": "リアルなHR、技術、行動の模擬面接を即座にスコアリングとフィードバック。"
+      },
+      {
+        "title": "就職準備スイート",
+        "desc": "時間制限付きの適性、コミュニケーション、技術評価 — MCQ、ライブコーディング、流暢さチェック。"
+      },
+      {
+        "title": "スキルギャップ分析",
+        "desc": "目標役割に対するスキルを比較し、個別の学習ロードマップを取得。"
+      },
+      {
+        "title": "ジョブマッチング",
+        "desc": "プロフィールにマッチした役割を発見し、フィットスコアで直接応募。"
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "使い方",
+    "title": "3ステップで夢の役割を手に入れる",
+    "steps": [
+      {
+        "t": "履歴書を分析",
+        "d": "履歴書と職務記述書をアップロードまたは貼り付け。瞬時にATSスコアと修正を取得。"
+      },
+      {
+        "t": "練習とスキルアップ",
+        "d": "模擬面接を実施し、個別のロードマップでスキルギャップを埋める。"
+      },
+      {
+        "t": "自信を持って応募",
+        "d": "マッチした仕事と応募を追跡し、準備スコアを向上させる。"
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "3ヶ月無料トライアル",
+    "title": "3ヶ月間無料でプレミアムを開始",
+    "subtitle": "無料トライアル終了後にのみ支払い。いつでもキャンセル可能。",
+    "mostPopular": "最も人気",
+    "perMonth": "/月",
+    "free": "無料",
+    "cta": "無料トライアルを開始",
+    "plans": [
+      {
+        "name": "スターター",
+        "tagline": "永遠に無料",
+        "features": [
+          "ATS分析（制限あり）",
+          "基本的な履歴書分析",
+          "基本的なスキルギャップ",
+          "制限付きAI面接",
+          "メールサポート"
+        ]
+      },
+      {
+        "name": "プロフェッショナル",
+        "tagline": "本気の求職者向け",
+        "features": [
+          "スターターのすべて",
+          "履歴書ビルダー + リライト",
+          "高度なATS分析",
+          "キャリアロードマップ",
+          "より多くのAI面接",
+          "優先サポート"
+        ]
+      },
+      {
+        "name": "プレミアム",
+        "tagline": "すべてアンロック",
+        "features": [
+          "無制限のATS分析",
+          "無制限のAI面接",
+          "キャリアコーチ、無制限",
+          "ポートフォリオビルダー",
+          "高度な分析",
+          "プレミアムサポート"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "求職者に愛されている",
+    "title": "結果が物語る",
+    "items": [
+      {
+        "name": "Priya Nair",
+        "role": "SDE @ プロダクトスタートアップ",
+        "quote": "ATSアナライザーは、なぜ不採用になっているのかを正確に示してくれました。履歴書を修正して、1週間で3つの面接を受けました。"
+      },
+      {
+        "name": "Rahul Mehta",
+        "role": "データアナリスト",
+        "quote": "面接シミュレーターは驚くほどリアルでした。フィードバックのおかげで実際の面接が簡単に感じられました。"
+      },
+      {
+        "name": "Ananya Rao",
+        "role": "新卒",
+        "quote": "新卒として、どのスキルが欠けているのか全く分かりませんでした。ロードマップが明確な8週間の計画を提供してくれました。"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "質問に答える",
+    "items": [
+      {
+        "q": "本当に3ヶ月間無料ですか？",
+        "a": "はい。新しいアカウントはすべて90日間無料でフルプレミアムアクセスを取得できます。開始するのにクレジットカードは不要です。"
+      },
+      {
+        "q": "ATS分析はどのくらい正確ですか？",
+        "a": "応募者追跡システムが履歴書を読む方法と同様に、構造、キーワード、フォーマットを解析し、貼り付けた特定の職務記述書に対するマッチをスコアリングします。"
+      },
+      {
+        "q": "ATS分析はどの仕事にも対応しますか？",
+        "a": "はい。任意の職務記述書と履歴書を貼り付けると、マッチスコア、欠落キーワード、セクションごとの修正が得られます。"
+      },
+      {
+        "q": "トライアル後はどうなりますか？",
+        "a": "データへのアクセスを保持し、有料プラン（スターター/プロフェッショナル/プレミアム）または制限付きの無料プランを継続できます。"
+      }
+    ]
+  },
+  "cta": {
+    "titlePrefix": "あなたの夢の仕事は",
+    "titleEmphasis": "1つの分析で",
+    "subtitle": "AI Hiring Pathを利用して、より早く採用される数千人の候補者に参加しましょう。",
+    "button": "無料アカウントを作成"
+  },
+  "footer": {
+    "tagline": "© 2026 AI Hiring Path Technologies. インド向けに構築され、世界に対応。",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "pricing": "料金"
+  },
+  "auth": {
+    "login": {
+      "panelTitle": "採用ゲームでの不公平なアドバンテージ",
+      "panelTitleEmphasis": "を手に入れる",
+      "panelSubtitle": "ATSを攻略し、面接で成功し、実際に候補者が採用されるための個別のキャリアインテリジェンスを構築。",
+      "panelTrust": "インド全土の候補者に信頼されています。",
+      "heading": "サインイン",
+      "subheading": "お帰りなさい。役割を獲得しましょう。",
+      "email": "メール",
+      "password": "パスワード",
+      "submit": "サインイン",
+      "adminDemoLabel": "管理者デモ：",
+      "noAccount": "アカウントがありませんか？",
+      "startTrial": "無料トライアルを開始",
+      "welcomeBack": "お帰りなさい、{name}!"
+    },
+    "register": {
+      "heading": "アカウントを作成",
+      "subheading": "3ヶ月間のプレミアムトライアルを即座に開始。",
+      "fullName": "フルネーム",
+      "email": "メール",
+      "password": "パスワード",
+      "passwordHint": "6文字以上",
+      "iAmA": "私は",
+      "roleCandidate": "候補者",
+      "roleRecruiter": "採用担当者",
+      "submit": "無料トライアルを開始",
+      "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+      "signIn": "サインイン",
+      "panelTitlePrefix": "夢の仕事を手に入れ、",
+      "panelTitleEmphasis": "より早く",
+      "perks": [
+        "3ヶ月間のプレミアム無料",
+        "無制限のAI履歴書分析",
+        "AI面接シミュレーター",
+        "クレジットカード不要"
+      ],
+      "successToast": "アカウントが作成されました — 3ヶ月間のプレミアムがアンロックされました！"
+    }
+  },
+  "dashboardNav": {
+    "overview": "ダッシュボード",
+    "ats": "履歴書ATS",
+    "linkedin": "LinkedInオプティマイザー",
+    "coach": "AIキャリアコーチ",
+    "jobPrep": "就職準備",
+    "skills": "スキルギャップ",
+    "roadmap": "ロードマップ",
+    "jobs": "仕事",
+    "billing": "請求",
+    "adminPanel": "管理パネル"
+  },
+  "adminNav": {
+    "console": "管理コンソール",
+    "dashboard": "ダッシュボード"
+  },
+  "dashboardMisc": {
+    "trialBadge": "トライアル • {days}日残り",
+    "adminAccessBadge": "管理者アクセス",
+    "adminPanel": "管理パネル"
+  },
+  "dashboard": {
+    "overview": {
+      "welcomeBack": "お帰りなさい、{name}",
+      "subtitle": "あなたのキャリア準備状況を一目で確認。",
+      "latestAtsScore": "最新のATSスコア",
+      "resumeHealth": "履歴書の健康",
+      "interviewReadiness": "面接準備",
+      "interviewsTaken": "実施した面接",
+      "keepPracticing": "練習を続けて改善",
+      "atsScoreTrend": "ATSスコアの傾向",
+      "runFirstAts": "最初のATS分析を実行して傾向を確認",
+      "skillRadar": "スキルレーダー",
+      "runSkillGap": "スキルギャップ分析を実行してレーダーを確認",
+      "weeklyActivity": "週間活動",
+      "recentActivity": "最近の活動",
+      "noActivityYet": "まだ活動なし",
+      "aiRecommendations": "AIの推奨事項",
+      "getNextSteps": "AIから個別の次のステップを取得。",
+      "generateRecommendations": "推奨事項を生成"
+    },
+    "ats": {
+      "title": "履歴書を分析",
+      "resumeLabel": "あなたの履歴書（テキストを貼り付け）",
+      "uploadButton": "PDF / DOCXをアップロード",
+      "extracting": "抽出中...",
+      "orPasteBelow": "または以下に貼り付け",
+      "resumePlaceholder": "履歴書の全文をここに貼り付けてください...",
+      "jdLabel": "目標職務記述書（オプション）",
+      "jdPlaceholder": "マッチさせる職務記述書を貼り付けてください...",
+      "analyzeButton": "履歴書を分析",
+      "analyzing": "AIで分析中...",
+      "emptyState": "あなたのATSレポートはここに表示されます。",
+      "matchTitle": "ATSマッチ",
+      "matchRate": "マッチ率: {rate}%",
+      "sectionScores": "セクションスコア",
+      "matchedSkills": "一致したスキル",
+      "missingSkills": "欠落したスキル",
+      "strengths": "強み",
+      "improvements": "改善点",
+      "aiRewrite": "AI履歴書リライト",
+      "proBadge": "プロ",
+      "rewriteButton": "AIで履歴書をリライト",
+      "upgradeNotice": "AI履歴書リライトをアンロックするにはプロフェッショナルにアップグレード。",
+      "resumeTooShort": "より完全な履歴書を貼り付けてください（最小約40文字）。",
+      "extractedToast": "{filename}から{chars}文字を抽出しました",
+      "analysisCompleteToast": "分析完了 — スコア {score}/100",
+      "rewriteReadyToast": "AIリライト準備完了"
+    },
+    "linkedin": {
+      "title": "LinkedInを最適化",
+      "urlLabel": "LinkedInプロフィールURL",
+      "roleLabel": "目標役割（オプション）",
+      "rolePlaceholder": "例：シニアプロダクトマネージャー",
+      "textLabel": "現在の見出し、概要、経験を貼り付け",
+      "textPlaceholder": "LinkedInの見出し、概要セクション、主要な経験をここに貼り付けてください（LinkedInは自動スクレイピングをブロックするため、最良の結果を得るにはテキストを貼り付けてください）。",
+      "optimizeButton": "プロフィールを最適化",
+      "optimizing": "最適化中...",
+      "emptyState": "最適化されたプロフィールはここに表示されます。",
+      "profileStrength": "プロフィールの強さ",
+      "headlineOptions": "見出しオプション",
+      "aboutSection": "最適化された概要セクション",
+      "keywordsToAdd": "追加するキーワード",
+      "quickWins": "クイックウィン",
+      "sectionTips": "セクションごとのヒント",
+      "missingFieldsToast": "以下にあなたの見出し/概要/経験のテキストを貼り付けてください（最低30文字）。URLだけでは不十分です。",
+      "analyzedToast": "プロフィール分析完了 — 強さ {score}/100",
+      "copiedToast": "クリップボードにコピーしました",
+      "fetchNotice": "LinkedInは、どのアプリに対しても自動プロファイル取得をブロックしていますので、URLを貼り付けるだけでは機能しません。正確でパーソナライズされた結果を得るために、以下にあなたの見出し、概要、経験のテキストをコピーしてください。"
+    },
+    "coach": {
+      "newChat": "新しいチャット",
+      "noConversations": "まだ会話がありません。",
+      "heading": "AIキャリアコーチ",
+      "subtitle": "履歴書、面接、給与、次のキャリア移動について何でも質問してください。",
+      "suggestions": [
+        "「自己紹介をしてください」とどう答えるか？",
+        "バンガロールで3年目のSDEとしてどの給与を要求すべきか？",
+        "データサイエンスへの転職のためのキャリア目標をレビューしてください",
+        "より早く採用されるためにどのプロジェクトを構築すべきか？"
+      ],
+      "inputPlaceholder": "キャリアコーチに質問..."
+    },
+    "skills": {
+      "title": "スキルギャップ分析",
+      "currentSkillsLabel": "現在のスキル",
+      "currentSkillsPlaceholder": "React, JavaScript, CSS...",
+      "targetRoleLabel": "目標役割",
+      "targetRolePlaceholder": "シニアフルスタックエンジニア",
+      "analyzeButton": "スキルギャップを分析",
+      "analyzing": "分析中...",
+      "skillRadar": "スキルレーダー",
+      "missingSkills": "欠落したスキル",
+      "learningRoadmap": "あなたの学習ロードマップ",
+      "enterRoleToast": "目標役割を入力してください",
+      "readyToast": "スキルギャップ分析準備完了"
+    },
+    "jobs": {
+      "title": "仕事",
+      "subtitle": "私たちのチームが投稿した役割、あなたのプロフィールに基づいたフィットでランク付け。",
+      "remote": "リモート",
+      "match": "マッチ",
+      "newlyPosted": "新しく投稿された",
+      "applyButton": "応募"
+    },
+    "billing": {
+      "currentPlan": "現在のプラン",
+      "trialDaysLeft": "無料プレミアムトライアルの残り{days}日",
+      "promoText": "3ヶ月間無料でプレミアムを開始。トライアル終了後にのみ支払い。",
+      "mostPopular": "最も人気",
+      "perMonth": "/月",
+      "free": "無料",
+      "pleaseWait": "お待ちください...",
+      "currentFreePlan": "現在の無料プラン",
+      "choosePlan": "{plan}を選択",
+      "paymentHistory": "支払い履歴",
+      "noPayments": "まだ支払いはありません — 無料トライアル中です。請求キーが設定されるとRazorpayチェックアウトが有効になります。",
+      "checkoutStartedToast": "チェックアウト開始"
+    },
+    "interview": {
+      "heading": "AI面接シミュレーター",
+      "subtitle": "リアルな模擬面接を実施し、即座にAIフィードバックを取得。",
+      "roleLabel": "目標役割",
+      "rolePlaceholder": "例：バックエンドデベロッパー",
+      "typeLabel": "面接タイプ",
+      "typeTechnical": "技術",
+      "typeHr": "HR / スクリーニング",
+      "typeBehavioral": "行動",
+      "startButton": "面接を開始",
+      "generatingQuestions": "質問を生成中...",
+      "cameraNotice": "面接中にカメラとマイクを使用します — アクセスを許可するよう求められます。",
+      "completeHeading": "面接完了！",
+      "averageScoreOf": "{role}の{count}質問に対する平均スコア",
+      "newInterview": "新しい面接",
+      "attentivenessSignal": "注意信号",
+      "attentivenessDetail": "顔が{pct}%のサンプルで見える · {multi}の複数顔イベント · {none}の顔なしイベント · {flagged} 件のフラグ済み",
+      "questionOf": "質問 {current} / {total}",
+      "readAloud": "質問を声に出して読む",
+      "answerPlaceholder": "答えを入力するか、マイクをタップして話してください...",
+      "speakAnswer": "答えを話す",
+      "stopListening": "停止",
+      "listening": "聞いています...",
+      "submitAnswer": "答えを送信",
+      "evaluating": "評価中...",
+      "aiFeedback": "AIフィードバック",
+      "strengths": "強み",
+      "gaps": "ギャップ",
+      "modelAnswer": "モデル回答",
+      "finishSeeResults": "終了して結果を見る",
+      "nextQuestion": "次の質問",
+      "enterRoleToast": "役割を入力してください",
+      "noQuestionsError": "質問が生成されませんでした、再試行してください",
+      "typeOrSpeakToast": "答えを入力または話してください",
+      "speechNotSupportedToast": "このブラウザでは音声がサポートされていません",
+      "voiceNotSupportedToast": "このブラウザでは音声入力がサポートされていません。Chromeを試してください。",
+      "listeningToast": "聞いています...答えを話してください"
+    },
+    "aptitude": {
+      "heading": "適性評価",
+      "subtitle": "15の論理および数値推論の質問。20分のタイマー、時間切れで自動送信。",
+      "startButton": "評価を開始",
+      "generatingQuestions": "質問を生成中...",
+      "correctOf": "{total}中{correct}正解",
+      "retake": "再試行",
+      "correctAnswer": "正解：オプション{n}",
+      "answered": "回答済み",
+      "submitButton": "評価を送信",
+      "submitting": "送信中...",
+      "autoSubmittedToast": "時間切れ — 自動送信されました"
+    },
+    "communication": {
+      "heading": "コミュニケーション評価",
+      "subtitle": "10の文法/言語MCQ（12分）、その後2つの短い段落を声に出して読む流暢さチェック（各90秒）。",
+      "cameraNotice": "カメラとマイクを使用します — 開始すると通知が表示されます。",
+      "startButton": "評価を開始",
+      "preparing": "準備中...",
+      "grammarCorrectOf": "{total}中{correct}文法正解 · 平均流暢さ{avg}/100",
+      "retake": "再試行",
+      "passageN": "段落{n}",
+      "attentivenessSignal": "注意信号",
+      "attentivenessDetail": "顔が{pct}%のサンプルで見える · {multi}の複数顔イベント · {none}の顔なしイベント · {flagged} 件のフラグ済み",
+      "answered": "回答済み",
+      "continueToReadAloud": "声に出して読み続ける",
+      "passageOf": "段落 {current} / {total}",
+      "startReading": "読み始める",
+      "scoring": "スコアリング中...",
+      "stop": "停止",
+      "listening": "聞いています...",
+      "finalizing": "結果を最終化中...",
+      "missingFieldsToast": "このブラウザでは音声入力がサポートされていません。Chromeを試してください。"
+    },
+    "technical": {
+      "heading": "技術評価",
+      "subtitle": "3つのセクション：15のMCQ（各1分）、3つのコーディング問題とテストケース、1つのSQLチャレンジ。",
+      "cameraNotice": "開始するとカメラとマイクを使用します — 通知を確認してください。",
+      "startButton": "評価を開始",
+      "preparing": "準備中...",
+      "scoreBreakdown": "MCQ {mcq}% · コーディング {coding}% · SQL {sql}%",
+      "retake": "再試行",
+      "attentivenessSignal": "注意信号",
+      "attentivenessDetail": "顔が{pct}%のサンプルで見える · {multi}の複数顔イベント · {none}の顔なしイベント · {flagged} 件のフラグ済み",
+      "sectionMcq": "セクション1/3 · MCQ {current} / {total}",
+      "continueToCoding": "コーディングに進む",
+      "nextQuestion": "次の質問",
+      "sectionCoding": "セクション2/3 · コーディング問題 {current} / {total}",
+      "constraints": "制約: {text}",
+      "input": "入力:",
+      "expected": "期待される:",
+      "runSampleTests": "サンプルテストを実行",
+      "codePlaceholder": "標準入力から読み取り、標準出力に書き込む完全なプログラムを書いてください...",
+      "continueToSql": "SQLセクションに進む",
+      "nextProblem": "次の問題",
+      "sectionSql": "セクション3/3 · SQL",
+      "schemaData": "スキーマ/データ:",
+      "sqlHint": "SELECTクエリのみを書いてください — 上記のスキーマ/データは自動的に設定されています。",
+      "sqlPlaceholder": "SELECT ...",
+      "submitButton": "評価を送信",
+      "submitting": "送信中...",
+      "testPassed": "テスト{n}合格",
+      "testFailed": "テスト{n}不合格",
+      "gotLabel": "取得:"
+    },
+    "roadmap": {
+      "heading": "キャリアロードマップ",
+      "subtitle": "目標役割とタイムラインに合わせた月ごとの計画。",
+      "domainLabel": "ドメイン",
+      "domainPlaceholder": "例：ソフトウェアエンジニアリング、データサイエンス",
+      "roleLabel": "目標役割",
+      "rolePlaceholder": "例：バックエンドデベロッパー",
+      "experienceLevelLabel": "経験レベル",
+      "fresher": "新卒",
+      "experienced": "経験者",
+      "yearsOfExperience": "経験年数",
+      "yearsPlaceholder": "例：3",
+      "timelineLabel": "タイムライン",
+      "months3": "3ヶ月",
+      "months6": "6ヶ月",
+      "months12": "12ヶ月",
+      "generateButton": "ロードマップを生成",
+      "generating": "ロードマップを作成中...",
+      "newPlan": "新しい計画",
+      "monthN": "月{n}",
+      "weekN": "週{n}: {focus}",
+      "enterFieldsToast": "ドメインと目標役割を入力してください"
+    },
+    "jobPrep": {
+      "heading": "就職準備",
+      "subtitle": "採用プロセスのすべての部分をAIでスコアリング。",
+      "back": "就職準備に戻る",
+      "tiles": [
+        {
+          "title": "AI面接",
+          "desc": "リアルなHR、技術、行動の模擬面接を即座にAIスコアリング。"
+        },
+        {
+          "title": "適性評価",
+          "desc": "タイマー付きの論理および数値推論。"
+        },
+        {
+          "title": "コミュニケーション評価",
+          "desc": "文法と言語のMCQ、さらに声に出して読む流暢さチェック。"
+        },
+        {
+          "title": "技術評価",
+          "desc": "MCQ、テストケース付きライブコーディング、SQLチャレンジ。"
+        }
+      ]
+    },
+    "proctor": {
+      "permissionNeeded": "{label}: カメラとマイクの許可が必要です。",
+      "enableButton": "カメラとマイクを有効にする",
+      "requesting": "要求中...",
+      "denied": "カメラ/マイクの許可が拒否されました — ブラウザのアドレスバーアイコンからアクセスを許可し、再読み込みしてください。",
+      "faceDetected": "顔が検出されました",
+      "multipleFaces": "複数の顔",
+      "noFaceVisible": "顔が見えません",
+      "starting": "開始中...",
+      "summaryNote": "クライアント側の注意信号のみ（顔の数 + マイクレベル） — 確認された身元、信頼度、または不正行為の判断ではありません。",
+      "warningNoFace": "しばらく顔が見えません — フレーム内に留まってください。",
+      "warningMultipleFaces": "複数の顔が検出されました — 候補者のみが見えるようにしてください。",
+      "flagged": "フラグされました"
+    }
+  },
+  "admin": {
+    "totalUsers": "総ユーザー数",
+    "trialUsers": "トライアルユーザー",
+    "paid": "有料",
+    "mrr": "MRR",
+    "planDistribution": "プラン分布",
+    "grantAccessTitle": "無料アクセスを付与",
+    "grantAccessSubtitle": "任意のメールに無料プランアクセスを即座に付与（支払い状況を上書き）。",
+    "emailPlaceholder": "user@email.com",
+    "notePlaceholder": "メモ（例：投資家、ベータテスター）",
+    "grantButton": "アクセスを付与",
+    "postJob": "仕事を投稿",
+    "editJob": "仕事を編集",
+    "postJobSubtitle": "ここに投稿された仕事はすべての候補者の仕事ページに表示され、「応募」はあなたの応募リンクに直接リンクします。",
+    "jobTitlePlaceholder": "仕事のタイトル",
+    "companyPlaceholder": "会社",
+    "locationPlaceholder": "場所（例：バンガロール）",
+    "ctcPlaceholder": "CTC（例：₹18-28 LPA）",
+    "applyLinkPlaceholder": "応募リンク（https://...）",
+    "skillsPlaceholder": "必要なスキル、カンマ区切り",
+    "descriptionPlaceholder": "仕事の説明",
+    "remoteFriendly": "リモート対応",
+    "saveChanges": "変更を保存",
+    "postJobButton": "仕事を投稿",
+    "cancel": "キャンセル",
+    "postedJobs": "投稿された仕事（{count}）",
+    "noJobsPosted": "まだ仕事は投稿されていません。",
+    "allUsers": "すべてのユーザー（{count}）",
+    "name": "名前",
+    "email": "メール",
+    "role": "役割",
+    "access": "アクセス",
+    "action": "アクション",
+    "revoke": "取り消す",
+    "starter": "スターター",
+    "professional": "プロフェッショナル",
+    "premium": "プレミアム",
+    "jobTypeFullTime": "フルタイム",
+    "jobTypePartTime": "パートタイム",
+    "jobTypeContract": "契約",
+    "jobTypeInternship": "インターンシップ",
+    "adminOnlyToast": "管理者のみ",
+    "jobRequiredFieldsToast": "タイトル、会社、応募リンクは必須です",
+    "jobUpdatedToast": "仕事が更新されました",
+    "jobPostedToast": "仕事が投稿されました",
+    "jobDeletedToast": "仕事が削除されました",
+    "accessGrantedToast": "{email}に{plan}を付与しました",
+    "accessRevokedToast": "アクセスが取り消されました"
+  }
+}
