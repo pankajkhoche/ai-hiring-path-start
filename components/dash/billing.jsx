@@ -13,14 +13,53 @@ export default function Billing({ user }) {
   const PLANS = t('pricing.plans').map((p, i) => ({ id: ['starter', 'professional', 'premium'][i], name: p.name, price: [0, 399, 599][i], popular: i === 2, features: p.features.slice(0, 5) }));
   const [info, setInfo] = useState(null);
   const [loading, setLoading] = useState('');
-  useEffect(() => { api('/billing/me').then(setInfo).catch(() => {}); }, []);
+  const refresh = () => api('/billing/me').then(setInfo).catch(() => {});
+  useEffect(() => { refresh(); }, []);
+
+  function loadRazorpayScript() {
+    return new Promise((resolve, reject) => {
+      if (window.Razorpay) return resolve();
+      const script = document.createElement('script');
+      script.src = 'https://checkout.razorpay.com/v1/checkout.js';
+      script.onload = resolve;
+      script.onerror = () => reject(new Error('Could not load Razorpay checkout'));
+      document.body.appendChild(script);
+    });
+  }
 
   async function checkout(planId) {
     setLoading(planId);
-    try { const d = await api('/billing/checkout', { method: 'POST', body: { plan: planId } });
-      if (d.status === 'payment_not_configured') toast.info(d.message);
-      else toast.success(t('dashboard.billing.checkoutStartedToast'));
-    } catch (e) { toast.error(e.message); } finally { setLoading(''); }
+    try {
+      const d = await api('/billing/checkout', { method: 'POST', body: { plan: planId } });
+      if (d.status === 'payment_not_configured') { toast.info(d.message); setLoading(''); return; }
+
+      await loadRazorpayScript();
+      const rzp = new window.Razorpay({
+        key: d.keyId,
+        order_id: d.orderId,
+        amount: d.amount,
+        currency: d.currency,
+        name: 'AI Hiring Path',
+        description: `${d.planName} Plan`,
+        prefill: { name: d.userName, email: d.userEmail },
+        theme: { color: '#f2a93c' },
+        handler: async (response) => {
+          try {
+            await api('/billing/verify', { method: 'POST', body: {
+              razorpay_order_id: response.razorpay_order_id,
+              razorpay_payment_id: response.razorpay_payment_id,
+              razorpay_signature: response.razorpay_signature,
+              plan: planId,
+            } });
+            toast.success(t('dashboard.billing.checkoutStartedToast'));
+            refresh();
+          } catch (e) { toast.error(e.message); } finally { setLoading(''); }
+        },
+        modal: { ondismiss: () => setLoading('') },
+      });
+      rzp.on('payment.failed', (resp) => { toast.error(resp.error?.description || 'Payment failed'); setLoading(''); });
+      rzp.open();
+    } catch (e) { toast.error(e.message); setLoading(''); }
   }
 
   const access = info?.access || user.access || {};

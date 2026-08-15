@@ -4,6 +4,7 @@ import { getDb } from '@/lib/mongodb';
 import { ask, askJson, resolveProvider, PROVIDERS } from '@/lib/llm';
 import { hashPassword, verifyPassword, signToken, verifyToken, computeAccess, hasFeature } from '@/lib/auth';
 import { gradeCodingProblem, gradeSqlTestCases } from '@/lib/judge0';
+import { isConfigured as razorpayConfigured, createOrder as createRazorpayOrder, verifyPaymentSignature, keyId as razorpayKeyId } from '@/lib/razorpay';
 
 export const runtime = 'nodejs';
 // Full technical-assessment grading runs many Judge0 calls in sequence (rate-limited
@@ -616,10 +617,42 @@ radar areas should have 5-6 entries with values 0-100.`;
     }
     if (route === '/billing/checkout' && method === 'POST') {
       requireAuth();
-      if (!process.env.RAZORPAY_KEY_ID) {
+      const { plan: planId } = body; if (!planId) return err('plan required');
+      const plan = await db.collection('plans').findOne({ id: planId });
+      if (!plan) return err('Invalid plan', 400);
+      if (plan.price === 0) return err('Free plan needs no checkout', 400);
+      if (!razorpayConfigured()) {
         return json({ status: 'payment_not_configured', message: 'Razorpay is not yet connected. Add your Razorpay keys to enable live checkout. Your 3-month Premium trial is already active.' }, 200);
       }
-      return json({ status: 'not_implemented' }, 501);
+      const order = await createRazorpayOrder({
+        amountInRupees: plan.price,
+        currency: plan.currency || 'INR',
+        receipt: `${authUser.id}_${plan.id}_${Date.now()}`.slice(0, 40),
+        notes: { userId: authUser.id, plan: plan.id },
+      });
+      return json({
+        status: 'created', orderId: order.id, amount: order.amount, currency: order.currency,
+        keyId: razorpayKeyId, plan: plan.id, planName: plan.name,
+        userName: authUser.name, userEmail: authUser.email,
+      });
+    }
+    if (route === '/billing/verify' && method === 'POST') {
+      requireAuth();
+      const { razorpay_order_id, razorpay_payment_id, razorpay_signature, plan: planId } = body;
+      if (!razorpay_order_id || !razorpay_payment_id || !razorpay_signature || !planId) return err('Missing payment details');
+      const valid = verifyPaymentSignature({ orderId: razorpay_order_id, paymentId: razorpay_payment_id, signature: razorpay_signature });
+      if (!valid) return err('Payment verification failed', 400);
+      const plan = await db.collection('plans').findOne({ id: planId });
+      if (!plan) return err('Invalid plan', 400);
+      const currentPeriodEnd = new Date(Date.now() + 30 * 86400000);
+      await db.collection('users').updateOne({ id: authUser.id }, { $set: {
+        subscription: { plan: plan.id, status: 'active', currentPeriodEnd, razorpayOrderId: razorpay_order_id, razorpayPaymentId: razorpay_payment_id },
+      } });
+      await db.collection('payments').insertOne({
+        id: uuidv4(), userId: authUser.id, plan: plan.id, amount: plan.price, currency: plan.currency || 'INR',
+        razorpayOrderId: razorpay_order_id, razorpayPaymentId: razorpay_payment_id, status: 'success', createdAt: new Date(),
+      });
+      return json({ status: 'success' });
     }
 
     // ===== Admin =====
