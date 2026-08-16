@@ -5,6 +5,7 @@ import { ask, askJson, resolveProvider, PROVIDERS } from '@/lib/llm';
 import { hashPassword, verifyPassword, signToken, verifyToken, computeAccess, hasFeature } from '@/lib/auth';
 import { gradeCodingProblem, gradeSqlTestCases } from '@/lib/judge0';
 import { isConfigured as razorpayConfigured, createOrder as createRazorpayOrder, verifyPaymentSignature, keyId as razorpayKeyId } from '@/lib/razorpay';
+import { sendMail, welcomeEmailHtml, paymentReceiptEmailHtml } from '@/lib/email';
 
 export const runtime = 'nodejs';
 // Full technical-assessment grading runs many Judge0 calls in sequence (rate-limited
@@ -154,6 +155,7 @@ async function handle(request, { params }) {
       };
       await db.collection('users').insertOne(user);
       await logActivity(db, user.id, 'account', 'Account created with 3-month Premium trial');
+      try { await sendMail({ to: user.email, subject: 'Welcome to AI Hiring Path', html: welcomeEmailHtml({ name: user.name }) }); } catch (e) { console.error('Welcome email failed:', e.message); }
       const token = signToken({ id: user.id, role: user.role });
       return json({ token, user: publicUser(user) });
     }
@@ -652,6 +654,16 @@ radar areas should have 5-6 entries with values 0-100.`;
         id: uuidv4(), userId: authUser.id, plan: plan.id, amount: plan.price, currency: plan.currency || 'INR',
         razorpayOrderId: razorpay_order_id, razorpayPaymentId: razorpay_payment_id, status: 'success', createdAt: new Date(),
       });
+      try {
+        await sendMail({
+          to: authUser.email, subject: `Payment receipt — ${plan.name} plan`,
+          html: paymentReceiptEmailHtml({
+            name: authUser.name, planName: plan.name, amount: plan.price, currency: plan.currency || 'INR',
+            paymentId: razorpay_payment_id, orderId: razorpay_order_id,
+            date: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' }),
+          }),
+        });
+      } catch (e) { console.error('Receipt email failed:', e.message); }
       return json({ status: 'success' });
     }
 
